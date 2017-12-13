@@ -1,0 +1,5 @@
+#menu li{
+  list-style: none;
+  display: inline-block;
+  padding: 5px 10px;  
+}

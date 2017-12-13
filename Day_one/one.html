@@ -1,0 +1,27 @@
+
+        
+        
+            <input type="text" ng-model='$ctrl.input1' ng-change=$ctrl."onInputChange()" >input1</input><br/>
+            <input type="text" ng-model='$ctrl.input2' ng-change="$ctrl.onInputChange()" >input2</input><br/>
+        
+            <!--<button ng-click="func(add)">+</button>
+            <button ng-click="func(sub)">-</button>
+            <button ng-click="func(add)">*</button>
+            
+            <button ng-click="func(add)">/</button>-->
+        
+        <div>
+        <div id="result" ng-class="{'calculation-result':$ctrl.isCalculated}">
+          {{$ctrl.resultText || ' Result is'}} {{$ctrl.result}}
+        </div>
+        
+        
+        
+        
+            <button ng-click="$ctrl.add()">+</button>
+            <button ng-click="$ctrl.sub()">-</button>
+            <button ng-click="$ctrl.mul()">*</button>
+            <button ng-click="$ctrl.div()">/</button>
+        
+            </div>
+        
